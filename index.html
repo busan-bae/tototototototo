@@ -12,15 +12,16 @@
     <diV class="container">
         <h1>To Do List</h1>
         <section class="input-area">
-            <input id="user-input" type="text"/>
+            <input id="user-input" autocomplete="off" type="text" />
             <button id="task-add-btn">+</button>
         </section>
+       
         <section class="task-area">
             <div class="task-bar">
                 <div id="under-line"></div>
-                <div>ALL</div>
-                <div>DOING</div>
-                <div>FINISH</div>
+                <div id="all">ALL</div>
+                <div id="ongoing">DOING</div>
+                <div id="done">FINISH</div>
             </div>
             <div id="task-board">
                 <!-- <div class="task-list">
@@ -34,6 +35,7 @@
                 </div> -->
             </div>
         </section>
+
     </diV>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
